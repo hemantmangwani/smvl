@@ -1,0 +1,668 @@
+<!doctype html>
+<html>
+ <head>
+   <title>Video Lectures - Main</title>
+   <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styleall.css">
+<style>
+  .main
+	  {
+	    height:4600px;
+		width:100%;
+	  }
+.middle
+{
+  background-color:#f3f3f3;
+  height:5000px;
+}
+
+.right
+{
+ background-color:#f3f3f3;
+  height:5000px;
+}
+.footer
+{
+width:100%;
+height:auto;
+}
+.UNIVERSITIES
+{
+  font-size:50px;
+  padding:0px;
+  margin:0px;
+}
+
+.UNIVERSITIES:hover
+{
+	background-color:#fff;
+	padding:1px;
+	margin:1px;
+}
+
+.branch 
+{
+	    text-decoration:none;
+		font-size:35px;
+		color:black;
+		padding:0px;
+		margin:0px;
+}
+.branch:hover
+{
+	background-color:#fff;
+	padding:1px;
+	margin:1px;
+}
+.sem a
+{
+	color:black;
+	font-size:25px;
+}
+.sem a:hover
+{
+	background-color:#fff;
+	padding:1px;
+	margin:1px;
+}
+
+.unimain a
+{
+	color:black;
+}
+
+.unimain a:hover
+{
+ background-color:white;
+  padding:1px;
+	margin:1px;
+}
+.f1
+{
+	font-size:60px;
+}
+
+.f2
+{
+	font-size:30px;
+}
+
+.nav1
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ 
+ @media (max-width: 1024px) {
+    .middle{  
+        width: 100%;
+        padding: 0;
+    }
+
+.middle
+{
+  background-color:#f3f3f3;
+  height:auto;
+}
+
+.right
+{
+ background-color:#f3f3f3;
+  height:auto;
+}
+.nav1
+{
+    position: static;
+ 
+    width: 100%;
+}
+}
+@media (max-width: 800px) {
+   .headerh1
+	  {
+		font-size:50px;
+	  }
+	  .headerh5
+	  {
+	   font-size:18px;
+	  }
+.middle
+{
+  height:auto;
+}
+
+.right
+{
+  height:auto;
+}
+
+.sem a
+{
+	color:black;
+	font-size:25px;
+}
+.branch 
+{
+		font-size:30px;
+}
+.nav1
+{
+    position: static;
+ 
+    width: 100%;
+}
+}
+
+@media (max-width: 500px) {
+  .headerh1
+	  {
+		font-size:40px;
+	  }
+	  .headerh5
+	  {
+	   font-size:13px;
+	  }
+.f1
+{
+	font-size:30px;
+}
+
+.f2
+{
+	font-size:20px;
+}
+.middle
+{
+  height:auto;
+}
+
+.right
+{
+  height:auto;
+}
+
+.sem a
+{
+	color:black;
+	font-size:25px;
+}
+.branch 
+{
+		font-size:26px;
+}
+.UNIVERSITIES
+{
+  font-size:40px;
+}
+.nav1
+{
+    position:static;
+    width: 100%;
+}
+}
+
+</style>
+</head>
+ 
+ <!-- body start here -->
+ 
+ <body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="https://studymatarial.000webhostapp.com/index.html"> Home  </a>
+  <a href="https://studymatarial.000webhostapp.com/aboutus.html">About</a>
+  <a href="https://studymatarial.000webhostapp.com/contact-us.html">Contact</a>
+  <a href="https://studymatarial.000webhostapp.com/ourblog.html">Blog</a>
+  <a href="https://studymatarial.000webhostapp.com/feedbackform.html">Feedback</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU <br><br></span>
+ 
+ <header class="header" > 
+ <h1 class="headerh1"><a style=" text-decoration:none; color:black;" href="https://studymatarial.000webhostapp.com/index.html">Video Lectures</a></h1>
+ <h5 class="headerh5">Best Content Will be Provided On Our Website</h5><br>
+ </header>
+ <nav class="nav1"> 
+   <a href="https://studymatarial.000webhostapp.com/index.html">Home</a>
+   <a href="#UNIVERSITIE">Universities</a>
+   <a href="https://studymatarial.000webhostapp.com/aboutus.html">About</a>
+   <a href="https://studymatarial.000webhostapp.com/ourblog.html">Blog</a>
+   <a href="https://studymatarial.000webhostapp.com/contact-us.html">Contact</a>
+   <a href="https://studymatarial.000webhostapp.com/LoginForm.html">Login</a>
+   <a href="https://studymatarial.000webhostapp.com/signupForm.html">Sign Up</a>
+   <a href="https://studymatarial.000webhostapp.com/feedbackform.html">Feedback</a>
+ </nav>
+  
+
+
+ <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="student.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="student2.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="student5.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<div class="main"> 
+  
+   <div class="col middle">
+  
+   <h1 style="font-size:50px;" id="UNIVERSITIE">WEBSITE  LAYOUT </h1>
+   <p style="font-size:20px;"> Select your university:- </p><br>
+   <div class="unimain">
+    <hr>
+<hr>
+   <a href="#RGPV" >| RGPV |</a>
+   <a href="#MEDI-CAPS" > MEDI-CAPS |</a>
+   <a href="#VAISHNAV" > VAISHNAV |</a>
+   <a href="#DAVV" > DAVV |</a>
+   </div>
+
+<hr>
+<hr>	
+	</br><a href="https://studymatarial.000webhostapp.com/rgpv.html"  id="RGPV"><pre class="UNIVERSITIES">RGPV</pre></a>
+					  <a href="https://studymatarial.000webhostapp.com/rgpvyearscs.html" ><pre class="branch"><b> Computer engineering  </b></pre></a>
+					  </br>
+					  <div class="sem">
+
+					  <a href="https://studymatarial.000webhostapp.com/1stsemcs.html" >| 1st Semester  |</a>
+					  <a href="https://studymatarial.000webhostapp.com/2ndsemcs.html" >  2nd Semester  |</a>
+					  <a href="https://studymatarial.000webhostapp.com/3rdsemcs.html" >  3rd Semester  |</a>
+					  <a href="https://studymatarial.000webhostapp.com/4thsemcs.html" >  4th Semester  |</a></br>
+					  <a href="https://studymatarial.000webhostapp.com/5thsemcs.html" >  5th Semester  |</a>
+					  <a href="https://studymatarial.000webhostapp.com/6thsemcs.html" >  6th Semester  |</a>
+					  <a href="https://studymatarial.000webhostapp.com/7thsemcs.html" >  7th Semester  |</a>
+					  <a href="https://studymatarial.000webhostapp.com/8thsemcs.html" >  8th Semester  |</a>
+					  
+					  </div>
+					 </br>
+					  
+					  <a href="https://studymatarial.000webhostapp.com/rgpvyearsit.html" ><pre class="branch"><b>  Information Technology </b> </pre></a>					  
+					</br>
+					  <div class="sem">
+					  <a href="#" >|  1st Semester  |</a>
+					  <a href="#" >  2nd Semester  |</a>
+					  <a href="#" >  3rd Semester  |</a>
+					  <a href="#" > 4th Semester  |</a></br>
+					  <a href="#" >  5th Semester  |</a>
+					  <a href="#" >  6th Semester  |</a>
+					  <a href="#" >  7th Semester  |</a>
+					  <a href="#" >  8th Semester  |</a>
+					  </div>
+					 </br>
+					  
+					  <a href="https://studymatarial.000webhostapp.com/rgpvyearsec.html"><pre class="branch"> <b> Electronic engineering </b> </pre></a>
+					  </br>
+					  <div class="sem">
+					  <a href="#" >|  1st Semester  |</a>
+					  <a href="#" >  2nd Semester  |</a>
+					  <a href="#" >  3rd Semester  |</a>
+					  <a href="#" > 4th Semester  |</a></br>
+					  <a href="#" >  5th Semester  |</a>
+					  <a href="#" >  6th Semester  |</a>
+					  <a href="#" >  7th Semester  |</a>
+					  <a href="#" >  8th Semester  |</a>
+					  </div>
+					 </br>
+					  
+					  <a href="https://studymatarial.000webhostapp.com/rgpvyearsme.html"><pre class="branch"><b>  Mechanical engineering </b></pre></a>
+					  </br>
+					  <div class="sem">
+					  <a href="#" >|  1st Semester  |</a>
+					  <a href="#" >  2nd Semester  |</a>
+					  <a href="#" >  3rd Semester  |</a>
+					  <a href="#" > 4th Semester  |</a></br>
+					  <a href="#" >  5th Semester  |</a>
+					  <a href="#" >  6th Semester  |</a>
+					  <a href="#" >  7th Semester  |</a>
+					  <a href="#" >  8th Semester  |</a>
+					  </div>
+					 </br>
+					  
+					  <a href="https://studymatarial.000webhostapp.com/rgpvyearsce.html"><pre class="branch"><b>  Civil engineering  </b></pre></a>
+					<div class="sem">
+					  <a href="#" >|  1st Semester  |</a>
+					  <a href="#" >  2nd Semester  |</a>
+					  <a href="#" >  3rd Semester  |</a>
+					  <a href="#" > 4th Semester  |</a></br>
+					  <a href="#" >  5th Semester  |</a>
+					  <a href="#" >  6th Semester  |</a>
+					  <a href="#" >  7th Semester  |</a>
+					  <a href="#" >  8th Semester  |</a>
+					  </div>
+					  </br>
+<hr>
+<hr>
+	</br><a href="https://studymatarial.000webhostapp.com/rgpv.html"  id="MEDI-CAPS"><pre class="UNIVERSITIES">MEDI-CAPS</pre></a></br>
+					  <a href="https://studymatarial.000webhostapp.com/medicapsyearscs.html"><pre class="branch"><b>  Computer engineering  </b></pre></a>
+					  </br>
+					  <div class="sem">
+					  <a href="#" >|  1st Semester  |</a>
+					  <a href="#" >  2nd Semester  |</a>
+					  <a href="#" >  3rd Semester  |</a>
+					  <a href="#" > 4th Semester  |</a></br>
+					  <a href="#" >  5th Semester  |</a>
+					  <a href="#" >  6th Semester  |</a>
+					  <a href="#" >  7th Semester  |</a>
+					  <a href="#" >  8th Semester  |</a>
+					  </div>
+					 </br>
+					  
+					  <a href="https://studymatarial.000webhostapp.com/medicapsyearsit.html"><pre class="branch"><b>  Information Technology  </b></pre></a>					  
+					  </br>
+					  <div class="sem">
+					  <a href="#" >|  1st Semester  |</a>
+					  <a href="#" >  2nd Semester  |</a>
+					  <a href="#" >  3rd Semester  |</a>
+					  <a href="#" > 4th Semester  |</a></br>
+					  <a href="#" >  5th Semester  |</a>
+					  <a href="#" >  6th Semester  |</a>
+					  <a href="#" >  7th Semester  |</a>
+					  <a href="#" >  8th Semester  |</a>
+					  </div>
+					 </br>
+					  
+					  <a href="https://studymatarial.000webhostapp.com/medicapsyearsec.html"><pre class="branch"><b>  Electronic engineering  </b></pre></a>
+					  </br>
+					  <div class="sem">
+					  <a href="#" >|  1st Semester  |</a>
+					  <a href="#" >  2nd Semester  |</a>
+					  <a href="#" >  3rd Semester  |</a>
+					  <a href="#" > 4th Semester  |</a></br>
+					  <a href="#" >  5th Semester  |</a>
+					  <a href="#" >  6th Semester  |</a>
+					  <a href="#" >  7th Semester  |</a>
+					  <a href="#" >  8th Semester  |</a>
+					  </div>
+					 </br>
+					  
+					  <a href="https://studymatarial.000webhostapp.com/medicapsyearsme.html"><pre class="branch"><b>  Mechanical engineering </b></pre></a>
+					  </br>
+					  <div class="sem">
+					  <a href="#" >|  1st Semester  |</a>
+					  <a href="#" >  2nd Semester  |</a>
+					  <a href="#" >  3rd Semester  |</a>
+					  <a href="#" > 4th Semester  |</a></br>
+					  <a href="#" >  5th Semester  |</a>
+					  <a href="#" >  6th Semester  |</a>
+					  <a href="#" >  7th Semester  |</a>
+					  <a href="#" >  8th Semester  |</a>
+					  </div>
+					 </br>
+					  
+					  <a href="https://studymatarial.000webhostapp.com/medicapsyearsce.html"><pre class="branch"><b>  Civil engineering  </b></pre></a>
+						</br>
+					  <div class="sem">
+					  <a href="#" >|  1st Semester  |</a>
+					  <a href="#" >  2nd Semester  |</a>
+					  <a href="#" >  3rd Semester  |</a>
+					  <a href="#" > 4th Semester  |</a></br>
+					  <a href="#" >  5th Semester  |</a>
+					  <a href="#" >  6th Semester  |</a>
+					  <a href="#" >  7th Semester  |</a>
+					  <a href="#" >  8th Semester  |</a>
+					  </div>
+					 </br> 
+<hr>
+<hr>		
+	</br><a href="https://studymatarial.000webhostapp.com/rgpv.html" id="VAISHNAV"><pre class="UNIVERSITIES">VAISHNAV</pre></a></br>
+					  <a href="https://studymatarial.000webhostapp.com/Vaishnavyearscs.html"><pre class="branch"><b>  Computer engineering  </b></pre></a>
+					 </br>
+					 <div class="sem">
+					  <a href="#" >|  1st Semester  |</a>
+					  <a href="#" >  2nd Semester  |</a>
+					  <a href="#" >  3rd Semester  |</a>
+					  <a href="#" > 4th Semester  |</a></br>
+					  <a href="#" >  5th Semester  |</a>
+					  <a href="#" >  6th Semester  |</a>
+					  <a href="#" >  7th Semester  |</a>
+					  <a href="#" >  8th Semester  |</a>
+					  </div>
+					 </br> 
+					  
+					  <a href="https://studymatarial.000webhostapp.com/Vaishnavyearsit.html"><pre class="branch"><b>  Information Technology  </b></pre></a>					  
+					  </br>
+					 <div class="sem">
+					  <a href="#" >|  1st Semester  |</a>
+					  <a href="#" >  2nd Semester  |</a>
+					  <a href="#" >  3rd Semester  |</a>
+					  <a href="#" > 4th Semester  |</a></br>
+					  <a href="#" >  5th Semester  |</a>
+					  <a href="#" >  6th Semester  |</a>
+					  <a href="#" >  7th Semester  |</a>
+					  <a href="#" >  8th Semester  |</a>
+					  </div>
+					 </br>
+					  
+					  <a href="https://studymatarial.000webhostapp.com/Vaishnavyearsec.html"><pre class="branch"><b>  Electronic engineering  </b></pre></a>
+					  </br>
+					  <div class="sem">
+					  <a href="#" >|  1st Semester  |</a>
+					  <a href="#" >  2nd Semester  |</a>
+					  <a href="#" >  3rd Semester  |</a>
+					  <a href="#" > 4th Semester  |</a></br>
+					  <a href="#" >  5th Semester  |</a>
+					  <a href="#" >  6th Semester  |</a>
+					  <a href="#" >  7th Semester  |</a>
+					  <a href="#" >  8th Semester  |</a>
+					  </div>
+					 </br>
+					  
+					  <a href="https://studymatarial.000webhostapp.com/Vaishnavyearsme.html"><pre class="branch"><b>  Mechanical engineering </b></pre></a>
+					  </br>
+					 <div class="sem">
+					  <a href="#" >|  1st Semester  |</a>
+					  <a href="#" >  2nd Semester  |</a>
+					  <a href="#" >  3rd Semester  |</a>
+					  <a href="#" > 4th Semester  |</a></br>
+					  <a href="#" >  5th Semester  |</a>
+					  <a href="#" >  6th Semester  |</a>
+					  <a href="#" >  7th Semester  |</a>
+					  <a href="#" >  8th Semester  |</a>
+					  </div>
+					 </br>
+					  
+					  <a href="https://studymatarial.000webhostapp.com/Vaishnavyearsce.html"><pre class="branch"><b>  Civil engineering  </b></pre></a>
+						</br>
+					  <div class="sem">
+					  <a href="#" >|  1st Semester  |</a>
+					  <a href="#" >  2nd Semester  |</a>
+					  <a href="#" >  3rd Semester  |</a>
+					  <a href="#" > 4th Semester  |</a></br>
+					  <a href="#" >  5th Semester  |</a>
+					  <a href="#" >  6th Semester  |</a>
+					  <a href="#" >  7th Semester  |</a>
+					  <a href="#" >  8th Semester  |</a>
+					  </div>
+					 </br>
+					 </br> 
+<hr>
+<hr>		
+	</br><a href="https://studymatarial.000webhostapp.com/rgpv.html"  id="DAVV"><pre class="UNIVERSITIES">DAVV</pre></a></br>
+					  <a href="https://studymatarial.000webhostapp.com/davvyearscs.html"><pre class="branch"><b>  Computer engineering  </b></pre></a>
+						</br>
+					  <div class="sem">
+					  <a href="#" >|  1st Semester  |</a>
+					  <a href="#" >  2nd Semester  |</a>
+					  <a href="#" >  3rd Semester  |</a>
+					  <a href="#" > 4th Semester  |</a></br>
+					  <a href="#" >  5th Semester  |</a>
+					  <a href="#" >  6th Semester  |</a>
+					  <a href="#" >  7th Semester  |</a>
+					  <a href="#" >  8th Semester  |</a>
+					  </div>
+					 </br>
+
+					  <a href="https://studymatarial.000webhostapp.com/davvyearsit.html"><pre class="branch"><b>  Information Technology  </b></pre></a>					  
+						</br>
+					  <div class="sem">
+					  <a href="#" >|  1st Semester  |</a>
+					  <a href="#" >  2nd Semester  |</a>
+					  <a href="#" >  3rd Semester  |</a>
+					  <a href="#" > 4th Semester  |</a></br>
+					  <a href="#" >  5th Semester  |</a>
+					  <a href="#" >  6th Semester  |</a>
+					  <a href="#" >  7th Semester  |</a>
+					  <a href="#" >  8th Semester  |</a>
+					  </div>
+					 </br>
+
+					  <a href="https://studymatarial.000webhostapp.com/davvyearsec.html"><pre class="branch"><b>  Electronic engineering  </b></pre></a>
+					</br>
+					  <div class="sem">
+					  <a href="#" >|  1st Semester  |</a>
+					  <a href="#" >  2nd Semester  |</a>
+					  <a href="#" >  3rd Semester  |</a>
+					  <a href="#" > 4th Semester  |</a></br>
+					  <a href="#" >  5th Semester  |</a>
+					  <a href="#" >  6th Semester  |</a>
+					  <a href="#" >  7th Semester  |</a>
+					  <a href="#" >  8th Semester  |</a>
+					  </div>
+					 </br>
+
+					  <a href="https://studymatarial.000webhostapp.com/davvyearsme.html"><pre class="branch"><b>  Mechanical engineering </b></pre></a>
+						</br>
+					  <div class="sem">
+					  <a href="#" >|  1st Semester  |</a>
+					  <a href="#" >  2nd Semester  |</a>
+					  <a href="#" >  3rd Semester  |</a>
+					  <a href="#" > 4th Semester  |</a></br>
+					  <a href="#" >  5th Semester  |</a>
+					  <a href="#" >  6th Semester  |</a>
+					  <a href="#" >  7th Semester  |</a>
+					  <a href="#" >  8th Semester  |</a>
+					  </div>
+					 </br>
+
+					  <a href="https://studymatarial.000webhostapp.com/davvyearsce.html"><pre class="branch"><b>  Civil engineering  </b></pre></a>
+					</br>
+					  <div class="sem">
+					  <a href="#" >|  1st Semester  |</a>
+					  <a href="#" >  2nd Semester  |</a>
+					  <a href="#" >  3rd Semester  |</a>
+					  <a href="#" > 4th Semester  |</a></br>
+					  <a href="#" >  5th Semester  |</a>
+					  <a href="#" >  6th Semester  |</a>
+					  <a href="#" >  7th Semester  |</a>
+					  <a href="#" >  8th Semester  |</a>
+					  </div>
+					 </br>
+					</br>
+					  
+<hr>
+<hr>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+  
+  
+              
+</div>
+   
+   <div class="col right">
+   <h1>New Videos</h1>
+   <p>COMMING SOON.....</p></br>
+   <p>1. Content Added in Rgpv</p>   
+   </div>
+   
+ </div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+ 
+
+ 
+ 
+ <footer class="footer">
+   <h5 class="deth5" >
+   <a href="https://studymatarial.000webhostapp.com/index.html">| Home  |</a>
+  <a href="https://studymatarial.000webhostapp.com/aboutus.html">About |</a>
+  <a href="https://studymatarial.000webhostapp.com/contact-us.html">Contact |</a>
+  <a href="https://studymatarial.000webhostapp.com/ourblog.html">Blog |</a>
+  <a href="https://studymatarial.000webhostapp.com/feedbackform.html">Feedback |</a>
+</h5>
+ <pre>
+	<b>videolectures | All Rights Reserved.<b> 
+	<i>Made by:- Hemant Kumar Mangwani</i>
+ </pre> 
+ </footer>
+ 
+ </body>
+</html>
