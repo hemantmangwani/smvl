@@ -1,0 +1,386 @@
+<!doctype html>
+<html>
+ <head>
+   <title>RGPV - Engineering Mathamatics - 1 </title>
+   <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styleall.css">
+<style>
+
+	body 
+	{
+	margin: 0;
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+    }
+      .header
+	  {
+		background-color:#ddd;
+	  }
+	  .headerh1
+	  {
+		font-size:70px;
+		padding-top:1px;
+		padding-left:20px;
+		margin:0px;
+	  }
+	  .headerh5
+	  {
+	   font-size:30px;
+	    text-align:right;
+		padding-top:1px;
+		padding-left:20px;
+		margin:0px;
+	  }
+	  .main
+	  {
+		width:100%;
+	  }
+	  .footer
+	  {
+	    clear:both;
+	    padding-top:5px;
+		text-align:center;
+		color: white;
+		font-size:25px;
+		background-color: black;
+		overflow:scroll;
+	  }
+	.deth5 
+	{
+	   text-align:center;
+	}
+    .deth5 a
+	{
+	   text-decoration:none;
+	   color:white;
+	   text-align:center;
+	}
+   
+   
+	  .nav1
+	  {
+	   overflow:hidden;
+	   background-color:black;
+	  }
+	  .nav1 a
+	  {
+	   float: left;
+	   display: block;
+	   color:white;
+	   text-align:center;
+	   text-decoration:none;
+	   font-size:30px;
+	   padding:20px;
+	  }
+	  .nav1 a:hover
+	  {
+	   background-color:gray;
+	   color:#ddd;
+	  }
+	  .col
+	  {
+	    float:left;
+		padding:20px;
+		height:4600px;
+		margin:10px;
+	  }
+	  .middle
+	  {
+	    width:100%;
+		background-color:#fff;
+	  }
+	  .middle a pre
+	  {
+	    text-decoration:none;
+		font-size:25px;
+		margin:10px;
+		color:black;
+	  }
+	   .middle a pre:hover
+	  {
+	    text-decoration:none;
+		font-size:25px;
+		margin:10px;
+		color:white;
+		background-color:black;
+		padding:10px;
+	  }
+	  .cs
+	  {
+	   font-size:40px;
+	   margin:0px;
+	   padding:0px;
+	   text-align:center;
+	  }
+	 .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+	  
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+  .video
+  {
+	border:2px solid black;
+	padding:10px;
+    margin:10px;
+	width:100%
+  } 
+
+
+@media (max-width: 800px) {
+	.headerh1
+	  {
+		font-size:50px;
+	  }
+	  .headerh5
+	  {
+	   font-size:18px;
+	  }  
+.middle a pre
+	  {
+	    text-decoration:none;
+		font-size:20px;
+		margin:10px;
+		color:black;
+	  }	  
+	  
+}
+
+@media (max-width: 500px)
+{
+	.headerh1
+	  {
+		font-size:40px;
+	  }
+	  .headerh5
+	  {
+	   font-size:13px;
+	  }
+	  .middle a pre
+	  {
+	    text-decoration:none;
+		font-size:15px;
+		margin:10px;
+		color:black;
+	  }
+	  
+}
+  
+
+</style>
+ </head>
+ 
+ <!-- body start here -->
+ 
+ <body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="https://studymatarial.000webhostapp.com/index.html"> Home  </a>
+  <a href="https://studymatarial.000webhostapp.com/aboutus.html">About</a>
+  <a href="https://studymatarial.000webhostapp.com/contact-us.html">Contact</a>
+  <a href="https://studymatarial.000webhostapp.com/ourblog.html">Blog</a>
+  <a href="https://studymatarial.000webhostapp.com/feedbackform.html">Feedback</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU <br><br></span>
+ 
+ <header class="header" > 
+ <h1 class="headerh1"><a style=" text-decoration:none; color:black;" href="https://studymatarial.000webhostapp.com/index.html">Video Lectures</a></h1>
+ <h5 class="headerh5">Best Content Will be Provided On Our Website</h5><br>
+ </header>
+ <nav class="nav1"> 
+      <a href="https://studymatarial.000webhostapp.com/index.html">Home</a>
+   <a href="https://studymatarial.000webhostapp.com/aboutus.html">About</a>
+   <a href="https://studymatarial.000webhostapp.com/ourblog.html">Blog</a>
+   <a href="https://studymatarial.000webhostapp.com/contact-us.html">Contact</a>
+   <a href="https://studymatarial.000webhostapp.com/LoginForm.html">Login</a>
+   <a href="https://studymatarial.000webhostapp.com/signupForm.html">Sign Up</a>
+   <a href="https://studymatarial.000webhostapp.com/feedbackform.html">Feedback</a>
+ </nav>
+  
+<main>
+  <div class="col middle">
+    <img class="center" src="Rgpv.jpg" alt="Medi-Caps University" height="300px" width="50%">
+	<b><p class="cs"> RGPV </p></b></br></br>
+	<h1> 2. Mathamatics - 1  </h1>
+	<div class="syl">
+<p>
+</br>
+</br>
+<b>Unit I</b>
+</br></br>
+Recapitulation of Mathematics: Basics of Differentiation, Rolle’s and Lagranges Theorem, Tangents and
+Normals, Indefinite Integral (Substitution, Integration using Trigonometric Identity & Integration by Parts
+& Definite Integral).
+</br></br>
+<b>Unit II</b>
+</br></br>
+Ordinary Derivatives & Applications: Expansion of functions by Maclaurin’s & Taylor’s Theorem (One
+Variable), Maxima and Minima of functions of two variables, Curvature (Radius, Center & Circle of
+Curvature for Cartesian Coordinates), Curve Tracing.
+</br></br>
+<b>Unit III</b>
+</br></br>
+Partial Derivatives & Applications: Definition, Euler’s Theorem for Homogeneous Functions,
+Differentiation of Implicit Functions, Total Differential Coefficient, Transformations of Independent
+Variables, Jacobians, Approximation of Errors.
+</br></br>
+<b>Unit IV</b>
+</br></br>
+Integral Calculus: Definite Integrals as a Limit of Sum, Application in Summation of series, Beta and
+Gamma functions (Definitions, Relation between Beta and Gamma functions, Duplication formula,
+Applications of Beta & Gama Functions).
+</br></br>
+<b>Unit V</b>
+</br></br>
+Applications of Integral Calculus: Multiple Integral (Double & Triple Integrals), Change of Variables,
+Change the Order of Integration, Applications of Multiple Integral in Area, Volume, Surfaces & Volume
+of Solid of Revolution about X-Axis & Y-Axis.
+</div>
+</br></br></br></br>
+<div class="video">
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/playlist?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm">
+</iframe>
+
+</br></br></br>
+<p><b>Engineering Graphics By:-Jaipal Sir  </b></p>
+</div>
+
+
+
+<div>
+
+<p style="font-size:50px;" ><strong> Mathamatics - 1 Videos</strong></p>
+<p style="font-size:25px; background-color:black; color:white;">Press <kbd>CTRL+F<kbd> and find the required video</p>
+</br></br>
+<p>
+<a href="https://youtu.be/Of0rC8c3eYs?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank"> Leibnitz Test for Convergence of an Alternating Series in Hindi</a><br /><br />
+<a href="https://youtu.be/s1Dbo7y9Sks?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank"> Infinite Series(Part VII) Logarithmic Test of Convergence in Hindi</a><br /><br />
+<a href="https://youtu.be/7_aEtLQYnEU?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Infinite Series(Part-VI) Raabe's Test of convergence in Hindi</a><br /><br />
+<a href="https://youtu.be/f3HEXyGHP10?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Infinite Series(Part-V) Cauchy's Root Test of Convergence in hindi</a><br /><br />
+<a href="https://youtu.be/SYqTgfNyr3s?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Infinite Series(Part-IV) D'Alembert's Ratio Test of Convergence in Hindi</a><br /><br />
+<a href="https://youtu.be/lJr_OWlgfc0?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Infinite Series(Part-III) Cauchy's Integral Test for Convergence in Hindi</a><br /><br />
+<a href="https://youtu.be/L-6JRktAsfE?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Infinite Series(Part-II) Comparison Test for Convergence in Hindi</a><br /><br />
+<a href="https://youtu.be/-0eCaT4cIhM?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Infinite Sequence and its Convergence in hindi</a><br /><br />
+<a href="https://youtu.be/XC-M-oTVR_0?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Infinite Series(Part-I): Convergence </a><br /><br />
+<a href="https://youtu.be/Igt-qqgBGpE?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Surface area Of Solid Generated by Revolution of a polar and Parametric curve in Hindi</a><br /><br />
+<a href="https://youtu.be/hQ3ysZsJyk8?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Surface area Of Solid Generated by revolution about X-axis in Hindi</a><br /><br />
+<a href="https://youtu.be/F0wCQo_mbrU?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Surface Area Of Solid Generated By Revolution about axes in hindi</a><br /><br />
+<a href="https://youtu.be/QedPXstjjpQ?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Triple Integral in Hindi (Part II)</a><br /><br />
+<a href="https://youtu.be/l8M2cEZ_AeM?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Change of order of Integration in Hindi</a><br /><br />
+<a href="https://youtu.be/F9DGN_iynw0?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Triple Integral In Hindi(Part-I)</a><br /><br />
+<a href="https://youtu.be/rOFSumVuBTc?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">How to find the limits of a double integral in Hindi</a><br /><br />
+<a href="https://youtu.be/ejYkL8XIOao?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Double Integral in Hindi(Part-II)</a><br /><br />
+<a href="https://youtu.be/PzydVWOEhmc?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Double integral In Hindi(Part-I)</a><br /><br />
+<a href="https://youtu.be/CzNYKG7hBfY?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Definite integral as limit of a sum in Hindi</a><br /><br />
+<a href="https://youtu.be/io69D9bNwp4?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Application of Beta and Gamma Function in Hindi (Part-II)</a><br /><br />
+<a href="https://youtu.be/kGJWZN8gyp4?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Application of Beta and Gamma Function in Hindi(Part-I)</a><br /><br />
+<a href="https://youtu.be/BH31CtpaGRI?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Duplication Formula in Hindi</a><br /><br />
+<a href="https://youtu.be/xQrN0E4Y25g?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Relation Between Beta and Gamma Function in Hindi</a><br /><br />
+<a href="https://youtu.be/tp0HiqJPh_E?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Gamma Function And Its Properties in hindi</a><br /><br />
+<a href="https://youtu.be/k-3gKllPbrA?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Beta Function And Its Properties in Hindi</a><br /><br />
+<a href="https://youtu.be/VhodSlmMZa0?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Application of Definite Integral in summation of series in hindi</a><br /><br />
+<a href="https://youtu.be/7GDgxTP5ENg?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Solenoidal Vector Field in Hindi</a><br /><br />
+<a href="https://youtu.be/8G_4c4mJQqM?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Irrotational Vector Field in Hindi</a><br /><br />
+<a href="https://youtu.be/I-oU-yOKut4?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Tracing of Cartesian Curve in Hindi(Part-I)</a><br /><br />
+<a href="https://youtu.be/tXDFo_id-Bg?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Tracing of Cartesian Curve in Hindi(Part-II)</a><br /><br />
+<a href="https://youtu.be/N_dkD10HaMg?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Tracing of Polar Curve in Hindi</a><br /><br />
+<a href="https://youtu.be/kNANYzuOUpA?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Concept of Polar Coordinate System in Hindi</a><br /><br />
+<a href="https://youtu.be/tgPldrNmnE0?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Volume of Solid generated by revolution about axes in hindi</a><br /><br />
+<a href="https://youtu.be/wOURocjlq14?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Radius of Convergence of Power Series in Hindi</a><br /><br />
+<a href="https://youtu.be/6iTAY9i_v9E?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Approximation of Error in Hindi</a><br /><br />
+<a href="https://youtu.be/78NIJFMAX30?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Differentiation of implicit Function in Hindi</a><br /><br />
+<a href="https://youtu.be/pSoldEpyEwQ?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Total Differential Coefficient in Hindi</a><br /><br />
+<a href="https://youtu.be/f37Q_vjfn0k?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Curvature, Radius of Curvature and Centre of Curvature in hindi</a><br /><br />
+<a href="https://youtu.be/HeKB72M2Puw?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Euler's theorem for Homogeneous Function in Hindi</a><br /><br />
+<a href="https://youtu.be/kQVPIwtTSxk?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Gauss Divergence Theorem in Hindi</a><br /><br />
+<a href="https://youtu.be/kOsgDUHSHgI?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Vector Calculus - Stoke's Theorem in Hindi</a><br /><br />
+<a href="https://youtu.be/1w2f29d0VHQ?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Vector Calculus - Green's Theorem in Hindi</a><br /><br />
+<a href="https://youtu.be/7gZ5V8TqWFk?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Vector Calculus - Volume Integral in Hindi</a><br /><br />
+<a href="https://youtu.be/kA-zIC8euhU?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Vector Calculus-Surface Integral in Hindi</a><br /><br />
+<a href="https://youtu.be/b92PpVtUZvQ?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Vector Calculus - Line Integral in Hindi</a><br /><br />
+<a href="https://youtu.be/uh4Ze0sSUiM?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Divergence and Curl of a vector point function in Hindi</a><br /><br />
+<a href="https://youtu.be/k9bjlIVhTxg?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Vector Calculus - Concept of Gradient in Hindi</a><br /><br />
+<a href="https://youtu.be/xqld3WYVDt0?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Vector Calculus-Concept of Vector Point Function & Vector Differentiation in Hindi</a><br /><br />
+<a href="https://youtu.be/gLWUrF_cOwQ?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Maxima and Minima of two variable function in hindi</a><br /><br />
+<a href="https://youtu.be/qjdE-Pt_aeY?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Definite Integral in Hindi(Part-II)</a><br /><br />
+<a href="https://youtu.be/pAb1autRHGA?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Partial Differentiation in Hindi</a><br /><br />
+<a href="https://youtu.be/t66N74O1ffQ?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Taylor's expansion theorem and problems in hindi</a><br /><br />
+<a href="https://youtu.be/KtgjOa-ik4w?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Taylor's Expansion theorem for one variable in hindi</a><br /><br />
+<a href="https://youtu.be/cwObOaIzU1o?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Maclaurin's expansion Theorem in Hindi</a><br /><br />
+<a href="https://youtu.be/LT_10p_eu88?list=PLdM-WZokR4tZCPoBCNPV2nA3H3oKdcHzm" target="_blank">Leibnitz theorem of nth derivative in Hindi</a><br /><br />
+
+
+
+
+</div>
+
+
+					  
+</div>
+</main>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+
+ 
+ <footer class="footer">
+  <h5 class="deth5" >
+   <a href="https://studymatarial.000webhostapp.com/index.html">| Home  |</a>
+  <a href="https://studymatarial.000webhostapp.com/aboutus.html">About |</a>
+  <a href="https://studymatarial.000webhostapp.com/contact-us.html">Contact |</a>
+  <a href="https://studymatarial.000webhostapp.com/ourblog.html">Blog |</a>
+  <a href="https://studymatarial.000webhostapp.com/feedbackform.html">Feedback |</a>
+</h5>
+ <pre>
+	<b>videolectures | All Rights Reserved.<b> 
+	<i>Made by:- Hemant Kumar Mangwani</i>
+ </pre> 
+ </footer>
+ 
+ </body>
+</html>

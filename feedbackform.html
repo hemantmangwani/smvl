@@ -1,0 +1,312 @@
+<!doctype html>
+<html>
+ <head>
+   <title>Video Lectures - Feedback Form</title>
+   <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styleall.css">
+<style>
+
+	body 
+	{
+	margin: 0;
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+    }
+      .header
+	  {
+		background-color:#ddd;
+	  }
+	  .headerh1
+	  {
+		font-size:70px;
+		padding-top:1px;
+		padding-left:20px;
+		margin:0px;
+	  }
+	  .headerh5
+	  {
+	   font-size:30px;
+	    text-align:right;
+		padding-top:1px;
+		padding-left:20px;
+		margin:0px;
+	  }
+	  .main
+	  {
+		width:100%;
+	  }
+	  .footer
+	  {
+	    clear:both;
+	    padding-top:5px;
+		text-align:center;
+		color: white;
+		font-size:25px;
+		background-color: black;
+		overflow:scroll;
+	  }
+	.deth5 
+	{
+	   text-align:center;
+	}
+    .deth5 a
+	{
+	   text-decoration:none;
+	   color:white;
+	   text-align:center;
+	}
+   
+   
+	  .nav1
+	  {
+	   overflow:hidden;
+	   background-color:black;
+	  }
+	  .nav1 a
+	  {
+	   float: left;
+	   display: block;
+	   color:white;
+	   text-align:center;
+	   text-decoration:none;
+	   font-size:30px;
+	   padding:20px;
+	  }
+	  .nav1 a:hover
+	  {
+	   background-color:gray;
+	   color:#ddd;
+	  }
+	  .col
+	  {
+	    float:left;
+		padding:20px;
+		height:1000px;
+		margin:10px;
+	  }
+	  .middle
+	  {
+	    width:100%;
+		background-color:#fff;
+	  }
+	  .middle a
+	  {
+	    text-decoration:none;
+		font-size:25px;
+		margin:10px;
+		color:black;
+	  }
+	  
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+input[type=text],input[type=password],input[type=number],input[type=email]
+{
+	width:100%;
+	padding:10px;
+	margin:10px;
+	border:1px solid black;
+	box-sizing: border-box;
+	
+}
+.loginbtn , .resetbtn
+{
+	width:40%;
+	padding:10px;
+	margin:10px;
+	background-color:blue;
+	color:white;
+	cursor:pointer;
+	border:1px solid black;
+}
+
+.loginbtn:hover
+{
+  background-color:red;
+}
+.resetbtn:hover
+{
+  background-color:red;
+}
+.form1
+{
+ border:2px solid black;
+ padding:30px;
+ margin:100px;
+ margin-top:0px;
+}
+.subject
+{
+ height:200px ;
+ width:100%;
+ box-sizing: border-box;
+ resize: vertical;
+}
+
+@media (max-width: 800px) {
+	.headerh1
+	  {
+		font-size:50px;
+	  }
+	  .headerh5
+	  {
+	   font-size:18px;
+	  }
+	  
+    .loginbtn , .resetbtn
+	{
+	  width:40%;
+	}
+	
+.form1
+{
+ padding:15px;
+}
+    	
+}
+
+@media (max-width: 500px)
+{
+	.headerh1
+	  {
+		font-size:40px;
+	  }
+	  .headerh5
+	  {
+	   font-size:13px;
+	  }
+
+    .loginbtn , .resetbtn
+	{
+	  width:100%;
+	}
+	.avtar {
+    width: 60%;
+    border-radius: 50%;
+	height:100px;
+} 
+.form1
+{
+ padding:13px;
+ margin:20px;
+}
+
+
+</style>
+ </head>
+ 
+ <!-- body start here -->
+ 
+ <body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="https://studymatarial.000webhostapp.com/index.html"> Home  </a>
+  <a href="https://studymatarial.000webhostapp.com/aboutus.html">About</a>
+  <a href="https://studymatarial.000webhostapp.com/contact-us.html">Contact</a>
+  <a href="https://studymatarial.000webhostapp.com/ourblog.html">Blog</a>
+  <a href="https://studymatarial.000webhostapp.com/feedbackform.html">Feedback</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU <br><br></span>
+ 
+ <header class="header" > 
+ <h1 class="headerh1"><a style=" text-decoration:none; color:black;" href="https://studymatarial.000webhostapp.com/index.html">Video Lectures</a></h1>
+ <h5 class="headerh5">Best Content Will be Provided On Our Website</h5><br>
+ </header>
+ <nav class="nav1"> 
+      <a href="https://studymatarial.000webhostapp.com/index.html">Home</a>
+   <a href="https://studymatarial.000webhostapp.com/aboutus.html">About</a>
+   <a href="https://studymatarial.000webhostapp.com/ourblog.html">Blog</a>
+   <a href="https://studymatarial.000webhostapp.com/contact-us.html">Contact</a>
+   <a href="https://studymatarial.000webhostapp.com/LoginForm.html">Login</a>
+   <a href="https://studymatarial.000webhostapp.com/signupForm.html">Sign Up</a>
+   <a href="https://studymatarial.000webhostapp.com/feedbackform.html">Feedback</a>
+ </nav>
+  
+<main>
+<h1 style="padding-top:10px;text-align:center;font-size:50px;">Feedback Form</h1></br>
+<div class="form1">
+ <form autocomplete="autocomplete">
+	<label> <b>First Name  </b> </label></br>
+		<input type="text" name="First Name" placeholder="First Name"  autofocus/> 
+	<label> <b>Last Name  </b> </label></br>
+		<input type="text" name="Last Name" placeholder="Last Name"  /> 
+	<label> <b>User Name  </b> </label></br>
+		<input type="text" name="User Name" placeholder="User Name" /> 
+	<label> <b>Email Addrees*  </b> </label></br>
+		<input type="email" name="eamil" placeholder="Email Addrees" required="required" /> 
+	</br></br>
+	<label> <b>Feedback*  </b> </label></br></br>
+	<textarea class="subject" name="subject" placeholder="Write something.." ></textarea>
+	</br></br>	
+		<button type="submit" class="loginbtn"> Submit </button>
+ </label>
+		<input type="reset" class="resetbtn" name="reset" /> 
+	</br>
+	</br>
+</form>
+</div>
+</main>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+
+ 
+ <footer class="footer">
+  <h5 class="deth5" >
+   <a href="https://studymatarial.000webhostapp.com/index.html">| Home  |</a>
+  <a href="https://studymatarial.000webhostapp.com/aboutus.html">About |</a>
+  <a href="https://studymatarial.000webhostapp.com/contact-us.html">Contact |</a>
+  <a href="https://studymatarial.000webhostapp.com/ourblog.html">Blog |</a>
+  <a href="https://studymatarial.000webhostapp.com/feedbackform.html">Feedback |</a>
+</h5>
+ <pre>
+	<b>videolectures.com | All Rights Reserved.<b> 
+	<i>Made by:- Hemant Kumar Mangwani</i>
+ </pre> 
+ </footer>
+ 
+ </body>
+</html>

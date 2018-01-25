@@ -1,0 +1,336 @@
+<style>
+
+	body 
+	{
+	margin: 0;
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+    }
+      .header
+	  {
+		background-color:#ddd;
+	  }
+	  .headerh1
+	  {
+		font-size:70px;
+		padding-top:1px;
+		padding-left:20px;
+		margin:0px;
+	  }
+	  .headerh5
+	  {
+	   font-size:30px;
+	    text-align:right;
+		padding-top:1px;
+		padding-left:20px;
+		margin:0px;
+	  }
+	  .main
+	  {
+	    height:1420px;
+		width:100%;
+	  }
+	  .footer
+	  {
+	    padding-top:5px;
+		text-align:center;
+		color: white;
+		font-size:25px;
+		background-color: black;
+		overflow:scroll;
+	  }
+	.deth5 
+	{
+	   text-align:center;
+	}
+    .deth5 a
+	{
+	   text-decoration:none;
+	   color:white;
+	   text-align:center;
+	}
+   
+   
+	  .nav1
+	  {
+	   overflow:hidden;
+	   background-color:black;
+	  }
+	  .nav1 a
+	  {
+	   float: left;
+	   display: block;
+	   color:white;
+	   text-align:center;
+	   text-decoration:none;
+	   font-size:30px;
+	   padding:20px;
+	  }
+	  .nav1 a:hover
+	  {
+	   background-color:gray;
+	   color:#ddd;
+	  }
+	  .col
+	  {
+	    float:left;
+		padding:20px;
+		height:1400px;
+		margin:10px;
+	  }
+	  .middle
+	  {
+	    width:70%;
+		background-color:#fff;
+	  }
+	  .middle a
+	  {
+	    text-decoration:none;
+		font-size:25px;
+		margin:10px;
+	  }
+	   .right
+	  {
+	    background-color:#fff;
+	    width:25%;
+	  }
+	  
+@media (max-width: 1024px) {
+    .left, .right ,.middle{  
+        width: 100%;
+        padding: 0;
+    }
+	.footer
+	{
+		width:100%;
+	}
+}
+ 
+@media (max-width: 1024px) {
+    .nav1 a {
+        float: left;
+        width:25%;
+    }
+}
+ 
+@media (max-width: 800px) {
+    .nav1 a {
+         float: left;
+        width:50%;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav1 a {
+        float: none;
+        width:100%;
+    }
+}
+
+* {box-sizing: border-box}
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+	background-color:black;
+}
+
+.dropdown .dropbtn {
+    font-size: 30px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+ .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: black;
+	color:white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+.panel a :hover
+{
+  background-color: black; 
+  color:white
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+   </style>
